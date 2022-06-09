@@ -1,8 +1,8 @@
 password = 'a123456'
 x = 2
 while x <= 2 and x >= 0:
-	password = input('please input your password:')
-	if password == 'a123456':
+	pwd = input('please input your password:')
+	if pwd == password:
 		print('you have sucessfully logged in')
 		break;
 	else:
